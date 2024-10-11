@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgba(135, 135, 135, 0.5);
+  margin: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 26px;
+  color: grey;
+}
+
+p {
+  font-weight: 300;
+  text-shadow: 6px red;
+}
+
+.sporty {
+  color: coral;
+}
+
+/* Hex values */
+.casual {
+  color: #000000;
+}
+
+/* RGBA */
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* HSL */
+  background-color: hsla(0, 100%, 50%, 0.4);
+}
+
+.card-2 {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.3;
+}

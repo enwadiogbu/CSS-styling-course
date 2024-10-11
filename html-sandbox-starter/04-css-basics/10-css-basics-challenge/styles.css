@@ -1,0 +1,60 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #5e175b;
+  color: #ffffff;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: rebeccapurple;
+}
+
+a:active {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-menu {
+  color: #f4f4f4;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-weight: bold;
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    font-size: 12px;
+  }
+
+  .lead {
+    font-size: 16px;
+  }
+
+  .header {
+    font-size: 24px;
+    padding-left: 12px;
+  }
+}
