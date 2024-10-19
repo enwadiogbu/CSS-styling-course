@@ -6,3 +6,21 @@ img {
   max-width: 900px;
   margin: 70px auto;
 }
+
+img {
+  max-width: 100%;
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+  /* filter: blur(2px); */
+  /* filter: brightness(50%);
+  filter: contrast(150%);
+  filter: drop-shadow(10px 10px 5px red); */
+  /* filter: hue-rotate(180deg);
+  filter: invert(75%);
+  filter: opacity(50%);
+  filter: saturate(110%);
+  filter: sepia(125%); */
+
+  /* Chain Filters */
+  filter: hue-rotate(180deg) blur(1.5px);
+}
